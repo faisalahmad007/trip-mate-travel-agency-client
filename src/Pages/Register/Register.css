@@ -1,0 +1,51 @@
+.container-area{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 40px;
+   
+  }
+  .inputs {
+    text-align: left;
+    margin-top: 30px;
+  }
+  .inputs input, button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .inputs input::placeholder {
+    color: gray;
+  }
+  .inputs input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+  
+  .inputs button {
+    margin-top: 20px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+  }
+  
+  .inputs button:hover {
+    box-shadow: none;
+  }
+ a{
+     text-decoration: none;
+ }
+  
