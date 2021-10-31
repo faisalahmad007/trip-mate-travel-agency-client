@@ -8,7 +8,7 @@ const UpdateServices = () => {
     const { register, handleSubmit,reset,formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
-        fetch(`http://localhost:5000/update/${serviceId}`,{
+        fetch(`https://shocking-village-14018.herokuapp.com/update/${serviceId}`,{
             method: 'PUT',
             headers: {
                 "content-type": "application/json"

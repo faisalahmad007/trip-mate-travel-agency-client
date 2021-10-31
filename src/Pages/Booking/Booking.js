@@ -14,7 +14,7 @@ const Booking = () => {
     const onSubmit = data => console.log(data);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://shocking-village-14018.herokuapp.com/services/${serviceId}`)
         .then(res => res.json())
         .then(data => setService(data));
     },[])
